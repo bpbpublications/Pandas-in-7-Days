@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+<style>
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+tr {
+      border: 3px solid white;
+      border-right: 2px solid white
+}
+
+tr:nth-child(1) {
+    background: #faab09 !important;
+    color: white;
+}
+
+tr:nth-child(even) { 
+  background: #f3e495; 
+}
+
+tr:nth-child(odd) { 
+  background: #ffdc6a; 
+}
+</style>
+</head>
+<body>
+    <h2>Money spent by day</h2>
+     <img src="{{ matplot }}">
+     {{ dataframe }}
+     </body>
+</html>
